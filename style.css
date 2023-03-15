@@ -1,0 +1,127 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  border: 2px solid gray;
+  padding: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 0.7rem;
+}
+
+ul {
+  padding: 0;
+  list-style: inside;
+}
+
+h1 + p {
+  margin: 0.7rem 0;
+}
+
+button {
+  padding: 0.7rem 1.4rem;
+  border-radius: 0.4rem;
+  outline: 0;
+  border: none;
+}
+
+.linktree {
+  background-color: #a9e372;
+  box-shadow: 0 5px 3px #0fa958;
+  /* #0fa958 */
+}
+
+.portfolio {
+  background-color: #9ee4e0;
+  box-shadow: 0 5px 3px #699bf7;
+  /* #699bf7 */
+}
+
+.website {
+  background-color: #e5bd8e;
+  box-shadow: 0 5px 3px #d27c2c;
+  /* #d27c2c */
+}
+
+.git {
+  background-color: #bfaee5;
+  box-shadow: 0 5px 3px #9747ff;
+  /* #9747ff */
+}
+.container {
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.main {
+  width: 70%;
+}
+
+.intro {
+  margin-top: 1rem;
+}
+
+.links {
+  gap: 1rem;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 2px solid gray;
+}
+
+header a {
+  display: block;
+}
+
+.profile {
+  text-align: right;
+}
+
+section > div:last-child {
+  margin-top: 1rem;
+  /* display: none; */
+}
+
+section p:first-child {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+  .flex {
+    flex-direction: column;
+  }
+  .profile {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .links {
+    margin-top: 2rem;
+  }
+}

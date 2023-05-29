@@ -123,6 +123,11 @@ section p:first-child {
   .flex {
     flex-direction: column;
   }
+  
+  .contact{
+    flex-direction: row;
+  }
+  
   .profile {
     text-align: left;
     margin-top: 1rem;

@@ -61,7 +61,6 @@ button {
 .git {
   background-color: #bfaee5;
   box-shadow: 0 5px 3px #9747ff;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
